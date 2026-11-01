@@ -1,13 +1,13 @@
-# Apple Music for Stream Deck (Windows)
+# Controls for Apple Music: an unofficial Stream Deck plugin (Windows)
 
-A Stream Deck plugin that controls **Apple Music on Windows**: play and pause, skip, now playing with album art, shuffle, repeat, and Stream Deck+ dials for volume and scrubbing.
+An **unofficial** Stream Deck plugin that controls the Apple Music app on Windows: play and pause, skip, now playing with album art, shuffle, repeat, and Stream Deck+ dials for volume and scrubbing.
 
 > **AI disclosure:** This plugin was fully coded by AI. Every line of code, the helper program, the icons, and this README were written by AI tools, with a human choosing the features and testing it. Review it as you would any community plugin before installing.
 
 ## Install
 
 1. Download `com.spud.applemusic.streamDeckPlugin` from the [latest release](https://github.com/jeremyp15/streamdeck-apple-music/releases/latest) (it's also in [`dist/`](dist/)).
-2. Double-click it. Stream Deck installs the plugin and adds an **Apple Music** category to the actions list.
+2. Double-click it. Stream Deck installs the plugin and adds a **Music Controls** category to the actions list.
 3. Drag the actions you want onto your keys or dials.
 
 ## Requirements
@@ -52,7 +52,7 @@ dist/                           packaged .streamDeckPlugin installer
 `bin/plugin.js` is the compiled plugin and includes Elgato's Stream Deck SDK (MIT). `bin/media-helper.exe` is a prebuilt helper written in Rust. The original source for both wasn't preserved, so this repo ships the built files.
 
 SHA-256 of the files:
-- `com.spud.applemusic.streamDeckPlugin`: `bab23be2d40b721ee5ff3ab14579b967bca31b4794ca79fb8edba8742697172a`
+- `com.spud.applemusic.streamDeckPlugin`: ``
 - `media-helper.exe`: `2c16096c5a17ecebd20464fe105aa754654f79ed994ce8dab2adebdddbd97ae7`
 
 ## Uninstall
@@ -61,4 +61,4 @@ In Stream Deck, open Preferences, then Plugins, select Apple Music and click the
 
 ## License
 
-[MIT](LICENSE). This project isn't affiliated with or endorsed by Apple or Elgato. Apple Music is a trademark of Apple Inc., and Stream Deck is a trademark of Corsair Memory Inc.
+[MIT](LICENSE). This is an independent, unofficial project. It isn't affiliated with, endorsed by or sponsored by Apple Inc., Elgato or Corsair. Apple Music is a trademark of Apple Inc., registered in the U.S. and other countries. Stream Deck and Elgato are trademarks of Corsair Memory Inc. The names are used only to describe what the plugin works with. The icons are original, generic media symbols and don't use Apple's logos.
