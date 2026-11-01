@@ -52,7 +52,7 @@ dist/                           packaged .streamDeckPlugin installer
 `bin/plugin.js` is the compiled plugin and includes Elgato's Stream Deck SDK (MIT). `bin/media-helper.exe` is a prebuilt helper written in Rust. The original source for both wasn't preserved, so this repo ships the built files.
 
 SHA-256 of the files:
-- `com.spud.applemusic.streamDeckPlugin`: ``
+- `com.spud.applemusic.streamDeckPlugin`: `41ea9b9ef3ce844d245f22ecfe894068b08e3b31ec59c1d2a8ca797124d29d8c`
 - `media-helper.exe`: `2c16096c5a17ecebd20464fe105aa754654f79ed994ce8dab2adebdddbd97ae7`
 
 ## Uninstall
