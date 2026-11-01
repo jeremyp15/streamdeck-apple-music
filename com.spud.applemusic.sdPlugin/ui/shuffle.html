@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8" />
+		<title>Shuffle</title>
+		<script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+	</head>
+	<body>
+		<sdpi-item label="Native">
+			<div class="sdpi-item-value">
+				When the media session reports shuffle is enabled, the key calls the Windows shuffle control and shows On or Off.
+			</div>
+		</sdpi-item>
+		<sdpi-item label="Fallback">
+			<div class="sdpi-item-value">
+				Apple Music on Windows usually does not publish shuffle. This key then focuses the Apple Music window and sends Apple's access key: Alt, then L, then S, one key after another. That is not Ctrl+S. The app does not report the result, so the key stays on the neutral Shuffle icon. A song needs to be playing before Apple Music accepts it. Other players are not sent this shortcut.
+			</div>
+		</sdpi-item>
+	</body>
+</html>

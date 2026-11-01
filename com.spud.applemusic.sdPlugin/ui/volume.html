@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8" />
+		<title>Volume</title>
+		<script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+	</head>
+	<body>
+		<sdpi-item label="Percent per tick">
+			<sdpi-range setting="percentPerTick" min="1" max="10" step="1" default="2" showlabels></sdpi-range>
+		</sdpi-item>
+		<sdpi-item label="What it changes">
+			<div class="sdpi-item-value">
+				The targeted app's volume mixer level when Windows exposes one. Otherwise the default playback device. Press the dial or tap the strip to mute. Turning the dial up unmutes.
+			</div>
+		</sdpi-item>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8" />
+		<title>Scrub</title>
+		<script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+	</head>
+	<body>
+		<sdpi-item label="Seconds per tick">
+			<sdpi-range setting="secondsPerTick" min="1" max="30" step="1" default="5" showlabels></sdpi-range>
+		</sdpi-item>
+		<sdpi-item label="Seek">
+			<div class="sdpi-item-value">
+				Moves the playhead when the media session allows it. Live streams and some videos do not. Press the dial or tap the strip to play or pause.
+			</div>
+		</sdpi-item>
+	</body>
+</html>
